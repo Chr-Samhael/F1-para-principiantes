@@ -1,0 +1,49 @@
+* { 
+margin:20;
+padding:0;
+}
+
+body {
+	background:#e6e6e6;
+}
+
+header, articles , footer { 
+	background:#fff;
+	width:90%;
+	max-width:1000px;
+	margin: 20px auto;
+}
+header nav  {
+background:#528fd5;
+overflow:hidden;
+}
+header articles nav ul   {
+	list-style:none;
+}
+header articles nav ul li {
+	float:left;
+}
+header article nav ul li a {
+	padding:10px 20px ;
+	display:block;
+color:#fff;
+text-decoration:none;	
+}
+	header article nav ul li a:hover  {
+		background:#75acec;
+	}
+		.main .articles  {
+		width:70%;
+		float:left;
+	}
+		
+	aside {
+		width:70%;
+	background:#ff8000;
+	float:left;
+	}
+	footer {
+		background:#000;
+		color:#fff;
+		clear:both;
+	}
